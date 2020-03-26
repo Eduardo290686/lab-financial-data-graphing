@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title> Financial </title>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+</head>
+
+<body>
+  <label for="start">From:</label>
+  <input type="date" name="start" id="start" value="2018-07-22" min="2000-01-01" max="2100-12-31">
+  <label for="end">to:</label>
+  <input type="date" name="end" id="end" value="2019-07-22" min="2000-01-01" max="2100-12-31">
+  <button id="show">Show</button>
+  <canvas id="myChart" width:"200" height="145"></canvas>
+</body>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.5.0/Chart.js"></script>
+<script src="/javascripts/financial-data.js"></script>
+
+</html>
